@@ -8,8 +8,13 @@ const { exec } = require('child_process');
 const app = express();
 const port = 5000;
 
+const corsOptions = {
+  origin: process.env.FRONTEND_URL,
+  allowedHeaders: ['Content-Type', 'Authorization'],
+};
+
 // Middleware
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(express.json());
 
 // API endpoint for chat
