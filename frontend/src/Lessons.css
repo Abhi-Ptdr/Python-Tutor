@@ -1,0 +1,28 @@
+.lessons-container {
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  }
+  
+  .lesson-card {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .lesson-card h3 {
+    margin-top: 0;
+    color: #ff6f61;
+  }
+  
+  .homework {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+  }

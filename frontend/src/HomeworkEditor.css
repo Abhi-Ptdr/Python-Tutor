@@ -1,0 +1,37 @@
+.homework-editor {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .homework-editor h3 {
+    margin-top: 0;
+    color: #ff6f61;
+  }
+  
+  .homework-editor button {
+    margin-top: 1rem;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .homework-editor button:hover {
+    background-color: #ff4a3d;
+  }
+  
+  .output {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .output pre {
+    margin: 0;
+  }

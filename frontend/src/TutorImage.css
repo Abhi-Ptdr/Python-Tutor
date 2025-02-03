@@ -1,0 +1,24 @@
+.tutor-image-container {
+    text-align: center;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+  }
+  
+  .tutor-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #ff6f61;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .tutor-image {
+      width: 100px; /* Smaller image for mobile */
+      height: 100px;
+    }
+  }

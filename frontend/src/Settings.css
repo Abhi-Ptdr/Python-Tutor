@@ -1,0 +1,36 @@
+.settings-container {
+  padding: 1rem;
+  width: 90%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #ff6f61;
+  margin-bottom: 1rem;
+}
+
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .settings-container {
+    padding: 0.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem; /* Smaller font size for mobile */
+  }
+
+  select {
+    padding: 0.3rem; /* Smaller padding for mobile */
+    font-size: 0.9rem;
+  }
+}

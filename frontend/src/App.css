@@ -1,0 +1,150 @@
+/* Main container for the app */
+.App {
+  text-align: center;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center the content vertically */
+}
+
+/* Home page styling */
+.App-header {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 70%;
+}
+
+/* Start button styling */
+.start-button {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #ff4a3d;
+}
+
+/* Main container for Settings, TutorImage, HomeworkEditor, and Chat */
+.main-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  gap: 1rem; /* Space between sections */
+}
+
+/* Sidebar for Settings, TutorImage, HomeworkEditor, and Chat */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  gap: 1rem; /* Space between components */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content area for Lessons */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Chat box container */
+.chat-box {
+  width: 100%;
+  height: 400px; /* Increase the height of the chat box */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Homework editor container */
+.homework-editor-container {
+  width: 100%;
+}
+
+/* Description section styling */
+.description {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 2rem;
+  /* max-width: 800px; */
+  width: 70%;
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column; /* Stack components vertically on mobile */
+    padding: 0.5rem;
+    gap: 0.5rem;
+  }
+
+  .sidebar {
+    width: 100%; /* Full width for mobile */
+    flex-direction: column; /* Stack components vertically on mobile */
+    gap: 0.5rem;
+  }
+
+  .main-content {
+    width: 100%; /* Full width for mobile */
+  }
+
+  .chat-box {
+    height: 70vh; /* Increased height for mobile */
+    min-height: 300px; /* Minimum height for mobile */
+  }
+
+  .tutor-image-container {
+    padding: 0.5rem;
+  }
+
+  .tutor-image {
+    width: 100px; /* Smaller image for mobile */
+    height: 100px;
+  }
+
+  .settings-container {
+    padding: 0.5rem;
+  }
+
+  .chat-header h2 {
+    font-size: 1.2rem; /* Smaller font size for mobile */
+  }
+
+  .chat-input input {
+    padding: 0.3rem; /* Smaller padding for mobile */
+  }
+
+  .chat-input button {
+    padding: 0.3rem 0.8rem; /* Smaller button for mobile */
+  }
+}
