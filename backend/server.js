@@ -6,7 +6,7 @@ const axios = require('axios');
 const { exec } = require('child_process');
 
 const app = express();
-const port = 5000;
+const port = 3000;
 
 const corsOptions = {
   origin: process.env.FRONTEND_URL,
