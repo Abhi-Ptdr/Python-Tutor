@@ -1,0 +1,13 @@
+{
+  "name": "ai-python-tutor",
+  "version": "1.0.0",
+  "description": "Welcome to Python Tutor for Kids! This project is designed to help kids learn Python in a fun and interactive way with the help of an AI-powered tutor. The application includes lessons, a code editor, and a chat interface where kids can interact with the AI tutor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd frontend && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

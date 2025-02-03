@@ -1,0 +1,17 @@
+{
+    "build": {
+      "env": {
+        "NODE_VERSION": "20"
+      }
+    },
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "backend/server.js"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "frontend/build/$1"
+      }
+    ]
+  }
